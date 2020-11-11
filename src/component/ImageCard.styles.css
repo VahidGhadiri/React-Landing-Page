@@ -1,13 +1,25 @@
+
+
 .card-container{
     max-width: 645px;
     background: rgba(0, 0, 0, 0.5) !important;
     color: #fff !important;
+    margin: 0 25px;
 }
 
 
-.card-media{
+
+
+.card-media-1{
     height: 440px;
     background-image:  url("../images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-media-2{
+    height: 440px;
+    background-image:  url("../images/img2.jpg");
     background-size: cover;
     background-position: center;
 }
