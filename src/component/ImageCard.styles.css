@@ -1,0 +1,26 @@
+.card-container{
+    max-width: 645px;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
+}
+
+
+.card-media{
+    height: 440px;
+    background-image:  url("../images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-title{
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 2rem !important ;
+    font-weight: bold !important;
+}
+
+.image-description{
+    color: #ddd !important;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 1.1rem !important;
+
+}

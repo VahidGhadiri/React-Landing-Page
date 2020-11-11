@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+.appbar{
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.header-icon{
+    color: #fff;
+    font-size: 3.5rem !important ;
+    transform: rotate(-180deg);
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-title{
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 22px !important;
+}
+
+.header-title span{
+    color:#5AFF3D ;
+}
+
+.main-content span{
+    color:#5AFF3D ;
+
+}
+
+.main-content{
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    font-size: 4.5rem !important;
+}
+
+.root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.main-icon{
+    background: #5AFF3D;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    margin-top: 250px !important;
+    color: #444;
+    
+    animation-name: blink-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-timing-function:ease ;
+}
+
+
+
+
+@keyframes blink-animation{
+0%{opacity: .5;}
+50%{opacity: 0;}
+100%{opacity: 1;}
+}
+
